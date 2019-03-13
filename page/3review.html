@@ -14,8 +14,8 @@ category: Review
         <ul>
             {% include get_subcat.html %}
             {% for subcategory in subcategories %}
-                <h2 id="{{subcategory | first}}">{{subcategory | first}}</h2>
-                {% for post in site.categories[subcategories] %}
+                <h2 id="{{subcategory}}">{{subcategory}}</h2>
+                {% for post in site.categories[subcategory] %}
                 {% if post.categories contains page.category and post.url %}
                     <li>
                         <time>{{ post.date | date:"%F" }} {{ post.date | date: "%a" }}.</time>
