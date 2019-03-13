@@ -13,7 +13,7 @@ category: Review
         <hr>
         <ul>
             {% include get_subcat.html %}
-            {% for subcategory in subcategories}
+            {% for subcategory in subcategories %}
                 <h2 id="{{subcategory | first}}">{{subcategory | first}}</h2>
                 {% for post in site.categories[subcategories] %}
                 {% if post.categories contains page.category and post.url %}
