@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Categories
-permalink: /category/
+title: Review
+permalink: /review/
 icon: th-list
 type: page
 ---
@@ -11,9 +11,10 @@ type: page
         <h1>{{page.title}}</h1>
         <hr>
         <ul>
-            {% for category in site.categories %}
-            <h2 id="{{category | first}}">{{category | first}}</h2>
-                {% for posts in category  %}
+            {% for categories in site.categories[page.title] %}
+            {% for subcategories in categories %}
+            <h2 id="{{subcategories | first}}">{{subcategories | first}}</h2>
+                {% for posts in subcategories  %}
                     {% for post in posts %}
                         {% if post.url %}
                         <li>
@@ -28,6 +29,7 @@ type: page
                         {% endif %}
                     {% endfor %}
                 {% endfor %}
+            {% endfor %}
             {% endfor %}
         </ul>
     </div>

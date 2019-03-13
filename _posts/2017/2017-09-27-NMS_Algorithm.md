@@ -4,7 +4,8 @@ title: "비최대값 억제 (NMS) 알고리즘"
 author: "정한솔"
 date: 2017-09-27 14:00:00
 categories: Tutorials
-tags: 객체검출
+subcategories: ObjectDetection
+tags: ObjectDetection
 ---
 
 본 포스트에서는 영상 처리 및 객체 검출에서 흔히 사용되는 비최대값 억제(Non maximum supression) 알고리즘에 대해서 설명하겠습니다.

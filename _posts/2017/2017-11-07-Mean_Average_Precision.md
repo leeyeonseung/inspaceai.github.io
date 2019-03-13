@@ -4,7 +4,8 @@ title: "mAP (Mean Average Precision)"
 author: "정한솔"
 date: 2017-11-07 12:00:00
 categories: Tutorials
-tags: 객체검출
+subcategories: ObjectDetection
+tags: ObjectDetection
 ---
 
 이 포스트에서는 검색 알고리즘의 성능을 평가하는 지표 중 하나인 mAP(mean average precision)에 대하여 설명하겠습니다.

@@ -4,7 +4,8 @@ title: "Keras 기반 F-RCNN의 원리"
 author: "정한솔"
 date: 2017-09-06 12:00:00
 categories: Review
-tags: 객체검출 FRCNN
+subcategories: ObjectDetection
+tags: ObjectDetection FRCNN
 ---
 
 본 포스트에서는 [Keras 기반으로 구현한 Faster RCNN](https://github.com/inspace4u/keras-frcnn) 코드와 함께 알고리즘의 원리에 대해서 해설하겠습니다.
