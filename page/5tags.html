@@ -15,7 +15,7 @@ type: page
             {{ tag[0] }}
           {% endfor %}
         {% endcapture %}
-        {% assign sortedtags = tags | split:' ' | sort %}
+        {% assign sortedtags = tags | sort %}
 
         <ul>
         {% for tag in sortedtags %}
