@@ -4,6 +4,7 @@ baseurl: ""
 brief-intro: Intelligence in Space
 email: hansoli@inspace.re.kr
 description: InSpace Artificial Intelligence Lab
+title: InSpace AILab
 permalink: /:year/:month/:day/:title/
 
 # Build settings
