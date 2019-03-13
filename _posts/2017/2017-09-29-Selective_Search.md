@@ -3,9 +3,8 @@ layout: post
 title: "선택적 탐색"
 author: "정한솔"
 date: 2017-09-29 17:00:00
-categories: Tutorials
-subcategories: ObjectDetection
-tags: ObjectDetection
+categories: [Tutorials, Object Detection]
+tags: [Object Detection]
 ---
 
 이 포스트에서는 객체 검출에서 객체의 영역 후보를 구하는 방법 중의 하나인 선택적 탐색(selective search) 알고리즘에 대해서 설명하겠습니다.

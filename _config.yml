@@ -16,7 +16,7 @@ kramdown:
 future: true
 
 # comment
-disqus: abc
+disqus: inspaceai
 
 # pagination
 category_dir: category/

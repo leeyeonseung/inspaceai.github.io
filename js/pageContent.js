@@ -3,6 +3,8 @@
 
         var sidebarWrap = document.querySelector('.right>.wrap')
 
+        if (sidebarWrap == null) return;
+
         sidebarWrap.style.width = sidebarWrap.offsetWidth + "px"
         window.onscroll = function () {
 

@@ -1,12 +1,12 @@
 {% capture categories %}
   {% if post %}
-    {% for category in post.categories %}
-        <a href="{{ root_url }}/{{ site.category_dir }}#{{ category }}" title="Category: {{ category }}" rel="category">{{ category | join: "/" }}</a>{% unless forloop.last %}&nbsp;{% endunless %}
-    {% endfor %}
+    {% unless post.categories.size == 0 %}
+      <span>{{ post.categories.first }}</span>
+    {% endunless %}
   {% else %}
-    {% for category in page.categories %}
-        <a href="{{ root_url }}/{{ site.category_dir }}#{{ category }}" title="Category: {{ category }}" rel="category">{{ category | join: "/" }}</a>{% unless forloop.last %}&nbsp;{% endunless %}
-    {% endfor %}
+    {% unless page.categories.size == 0 %}
+      <span>{{ page.categories.first }}</span>
+    {% endunless %}
   {% endif %}
 {% endcapture %}
 {% capture category_size %}{{ categories | strip_newlines | replace: ' ', '' | size }}{% endcapture %}
