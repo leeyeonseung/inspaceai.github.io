@@ -1,14 +1,9 @@
 <!DOCTYPE html>
 <html>
-
   {% include head.html %}
-
   <body>
-
     {% include header.html %}
-
         {{ content }}
-
     {% include footer.html %}
     {% include backToTop.html %}
     <script src="{{ " /js/main.js " | prepend: site.baseurl }}" charset="utf-8"></script>
@@ -21,5 +16,4 @@
       });
     </script>
   </body>
-
 </html>
