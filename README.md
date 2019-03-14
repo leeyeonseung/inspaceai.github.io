@@ -6,7 +6,7 @@
   * Object Detection (정한솔)
   * Semantic Segmentation (이은규, 한권희)
   * Reinforcement Learning (이현호)
-  * Abnormal Detection (박상민)
+  * Anomaly Detection (박상민)
   * Generative Adversarial Network (김태영)
   * Kaggle (이연승)
 * Review : 논문, 프로젝트, 솔루션 리뷰
