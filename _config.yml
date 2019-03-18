@@ -6,6 +6,7 @@ email: hansoli@inspace.re.kr
 description: InSpace Artificial Intelligence Lab
 title: InSpace AILab
 permalink: /:year/:month/:day/:title/
+timezone: Etc/UTC
 
 # Build settings
 markdown: kramdown
@@ -22,5 +23,5 @@ disqus: inspaceai
 # pagination
 category_dir: category/
 tag_dir: tag/
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
 paginate: 10

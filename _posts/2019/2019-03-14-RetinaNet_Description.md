@@ -2,7 +2,7 @@
 layout: post
 title: "RetinaNet 원리"
 author: "정한솔"
-date: 2019-3-14 16:00:00
+date: 2019-03-14 16:00:00
 categories: [Review, Object Detection]
 tags: [Object Detection, RetinaNet]
 ---

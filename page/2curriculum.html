@@ -1,0 +1,22 @@
+---
+layout: default
+title: Curriculum
+permalink: /curriculum/
+icon: book
+type: page
+category: Curriculum
+---
+
+<div class="page clearfix" post>
+    <div class="left">
+        <h1>{{page.title}}</h1>
+        <hr>
+
+        <article itemscope itemtype="http://schema.org/BlogPosting">
+            {% capture tutorial_index %}{% include curriculum.md %}{% endcapture %}
+            {{ tutorial_index | markdownify }}
+        </article>
+    </div>
+    <button class="anchor"><i class="fa fa-anchor"></i></button>
+</div>
+<script src="{{ "/js/pageContent.js " | prepend: site.baseurl }}" charset="utf-8"></script>
