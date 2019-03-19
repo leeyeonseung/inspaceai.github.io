@@ -9,6 +9,8 @@ tags: [Kaggle]
 
 캐글 매뉴얼에 대한 번역입니다.
 
+---
+
 # Kaggle
 
 
