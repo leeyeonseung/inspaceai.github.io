@@ -46,7 +46,7 @@ Kaggle에서 찾아보세요. Kaggle이 감독하는 머신러닝 대회는 당�
 
 ### 맞춤형 경쟁과 후보 코드, 협업 및 성과에 대한 가시성을 통해 팀의 최고의 적임자를 찾으십시오.
 
- [더 알아보기](https://www.kaggle.com/host/recruiting)
+[더 알아보기](https://www.kaggle.com/host/recruiting)
 
 #  새로운 사람을  모집할 방법을 찾고 있습니까?
 
@@ -73,7 +73,7 @@ Kaggle에서 찾아보세요. Kaggle이 감독하는 머신러닝 대회는 당�
 
 ### 사회적 이익을 위한 당신의 머신러닝 연구 문제를 Kaggle에서 해결하십시오.
 
- [지원하기](https://www.kaggle.com/host/research)
+[지원하기](https://www.kaggle.com/host/research)
 
 #  연구 대회
 
@@ -263,7 +263,7 @@ Kaggle Inclass 대회의 유치와 참가에 관한 교사와 학생들의 가�
 * 만약 제출물에 문제가 있다면 어디서 도움을 받아야 하나요?
     * InClass 문제에 대한 도움을 받는 가장 좋은 방법은 선생님이나 반 친구들에게 연락하는 것입니다. 당신의 설정의 문제와 비슷한 문제를 겪었던 주변 사람들이 당신에게 도움을 줄 것입니다. Kaggle 팀에서는 제출 파일 에러에 대한 지원을 제공할 수 없습니다.
 
- ### Kaggle 지속하기
+### Kaggle 지속하기
 
 * Inclass 대회가 정말 마음에 드는데, 이후에는 무엇을 해야하나요?
     * Kaggle에는 많은 다양한 종류의 대회들이 있고 그들은 모두 배우기 좋은 기회들입니다. Getting Started competitions는 데이터 과학에 대한 기초지식을 가르쳐줍니다. InClass 대회와 같은 것들은 데이터가 공개되기 때문에 대회 점수를 부여하지는 않습니다. 당신은 몇 가지 튜토리얼에 따라 discussion forum에 참여할 수 있습니다. Playground 대회는 경쟁률이 낮은 형식으로 다양한 유형의 데이터와 머신러닝 기술에 접할 수 있는 또 다른 재미있는 방법입니다.
