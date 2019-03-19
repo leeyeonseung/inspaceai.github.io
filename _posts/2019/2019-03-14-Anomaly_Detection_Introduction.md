@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Anomaly Detection 개요"
+title: "이상감지 개요"
 author: "박상민"
 date: 2019-03-14 12:00:00
 categories: [Tutorials, Anomaly Detection]
@@ -43,7 +43,7 @@ tags: [Anomaly Detection, Time Series]
 
 * 무궁무진하다고 생각합니다. 지금까지 우리는 '연구'와 '개발'에만 초점이 맞추어져 있었습니다. 이는 제품 또는 건축물이(이동수단, 인공위성, 발전소, 고층빌딩 등) 복잡하고, 크고, 비용이 많이 들어갈수록, 유지보수의 비용이 크게 증가하게 될 것입니다. 그럼에따라 이상감지 시스템의 필요성도 더 커질 것이고, 관련 시장도 계속 늘어날 것 입니다. 
 
-## 기존에 사용했던 기법들
+## 기존의 항공우주 분야 이상감지 모니터링 기법
 
 * OOL(Out of Limit) : 사전에 정의된 limit 값을 기준으로 이상치 탐지합니다.
 * Exper System : 전문가들의 지식을 이용하여 순서드를 만들어 이상치 탐지합니다.
