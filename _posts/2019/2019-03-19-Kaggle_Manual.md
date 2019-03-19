@@ -7,6 +7,8 @@ categories: [Tutorials, Kaggle]
 tags: [Kaggle]
 ---
 
+캐글 매뉴얼에 대한 번역입니다.
+
 # Kaggle
 
 
@@ -16,7 +18,7 @@ tags: [Kaggle]
 
 
 
-# <center>  당신은 데이터를 <br/> Kaggle을 이용해 데이터 과학자들과 <br/> 쉽게 연결할 수 있습니다. </center>  
+# <center>  당신은 데이터를 <br/> Kaggle을 이용해 데이터 과학자들과 <br/> 쉽게 연결할 수 있습니다. </center>
 
 ### <center> 과학자들이 백만 개 이상의 자료를 가지고 있는 Kaggle이 <br/> 당신을 위해 무엇을 할 수 있는지 보십시오. </cneter>
 
@@ -68,7 +70,7 @@ tags: [Kaggle]
     ![시작](https://i.imgur.com/nkZvGKR.png)
 
  * 학습
-    
+
    대회 수상자에게서 코드와 문서를 받고, 지식 전달 전화에 따라 후속 조치를 취합니다.
 
    ![학습](https://i.imgur.com/rOV2VSB.png)
@@ -121,7 +123,7 @@ tags: [Kaggle]
     ![시작](https://i.imgur.com/3lRppeh.png)
 
  * 고용
-    
+
    참가자들이 제출한 스크린 이력서와 맞춤형 후보 보고서를 사용하여 채용을 시작합니다.
 
    ![고용](https://i.imgur.com/IrJORdY.png)
@@ -222,7 +224,7 @@ Kaggle은 1년 내내 연구 주최자를 순환적으로 선정할 것입니다
     ![생성](https://i.imgur.com/3UprIQK.png)
 
  * 초대
-    
+
    학생들과 공유할 공개 초대 링크를 만드십시오.
 
    ![초대](https://i.imgur.com/a0fVy1N.png)
@@ -234,7 +236,7 @@ Kaggle은 1년 내내 연구 주최자를 순환적으로 선정할 것입니다
 
     ![시작](https://i.imgur.com/0A0FMtU.png)
 
- 
+
 ## <span style="color:skyblue"><center> [설정 가이드](https://storage.googleapis.com/kaggle-media/random/InClassSetupGuide.pdf)</span> <center/>
 
 <br/>
@@ -298,7 +300,7 @@ Competition wizard는 당신이 대회를 개최할 곳입니다. wizard는 당�
 
 ## 학생 초대
 
-Host > Privacy 탭의 고유한 URL을 공유하여 경쟁사에 학생을 초대할 수 있습니다. 이 URL을 가진 사람은 누구나 대회에 참가할 수 있으므로 그것이 여러분의 그룹 밖으로 유포되지 않도록 하십시오. 
+Host > Privacy 탭의 고유한 URL을 공유하여 경쟁사에 학생을 초대할 수 있습니다. 이 URL을 가진 사람은 누구나 대회에 참가할 수 있으므로 그것이 여러분의 그룹 밖으로 유포되지 않도록 하십시오.
 
 ![학생 초대](https://i.imgur.com/QVR3J0P.png)
 
@@ -323,7 +325,7 @@ Kaggle Inclass 대회의 유치와 참가에 관한 교사와 학생들의 가�
 
  * [Kaggle의 데이터셋 플랫폼](https://www.kaggle.com/datasets)인 [favorite machine learning friendly datasets](https://www.kaggle.com/annavictoria/ml-friendly-public-datasets)에서 어느 정도의 간추려진 데이터 셋을 얻을 수 있습니다. 새로운 데이터 셋이 매일 추가되기 때문에 Kaggle은 특정한 주제나 현재의 사건에 대한 데이터를 저 플랫폼에서 찾는 것을 권장합니다. 당신은 특정한 주제와 연관된 데이터를 검색창을 통해서 찾을 수 있습니다.
 
- 
+
 만약 [an error]이라는 경고 창을 받았다면 어떻게 해결할 수 있나요?
  * 우선 setup quide를 읽어보시길 바랍니다. 그 후에도 그 문제를 해결할 수 없다면, Kaggle forum에서 다른 교사에게 물어보시길 바랍니다.
 
@@ -348,7 +350,7 @@ Kaggle의 관리자가 대회 개최전에 검토를 할 필요가 있나요?
  * Kaggle InClass는 무료이고 셀프서비스 기능입니다. Kaggle은 당신의 대회를 설정하거나 문제를 해결하기 위한 지원을 제공할 수 없습니다. 그러나 플랫폼 전체에 영향을 미치고 있다고 생각되는 문제를 겪고 있다면 Kaggle에 문의하십시오.
 
  ## **대회중**
- 
+
 
  학생이 제출한 파일을 무효화하거나 삭제할 수 있나요?
 
