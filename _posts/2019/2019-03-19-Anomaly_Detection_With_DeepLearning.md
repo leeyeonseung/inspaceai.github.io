@@ -4,7 +4,7 @@ title: "이상감지와 머신러닝"
 author: "박상민"
 date: 2019-03-19 12:00:00
 categories: [Tutorials, Anomaly Detection]
-tags: [Anomaly Detection, Detection_Technique]
+tags: [Anomaly Detection, Detection Technique]
 ---
 
 본 포스트에서는 머신러닝을 이용한 이상감지에 대해 간략하게 설명하도록 하겠습니다.
