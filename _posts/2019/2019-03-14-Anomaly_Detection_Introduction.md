@@ -4,7 +4,7 @@ title: "이상감지 개요"
 author: "박상민"
 date: 2019-03-14 12:00:00
 categories: [Tutorials, Anomaly Detection]
-tags: [Anomaly Detection, Time Series]
+tags: [Anomaly Detection]
 ---
 
 본 포스트에서는 딥러닝 기반 Anomaly Detection(이상감지)에 대하여 간략하게 설명하도록 하겠습니다.
