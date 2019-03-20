@@ -10,7 +10,7 @@ tags: [XAI]
 본 포스트에서는 eXplainable AI(XAI)에 대해 간략히 알아보겠습니다.
 본 포스트의 자료는 대부분 [Interpretable-ml-book](https://christophm.github.io/interpretable-ml-book/) 에서 참조하였습니다.
 
-![Interpretable-ml-book]({{ "/images/2019/interpretable-ml-book.png =300x" | prepend: site.baseurl }})
+![Interpretable-ml-book]({{ "/images/2019/interpretable-ml-book.png" =300x | prepend: site.baseurl }})
 
 ---
 
