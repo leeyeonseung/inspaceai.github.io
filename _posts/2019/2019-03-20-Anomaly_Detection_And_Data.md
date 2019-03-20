@@ -4,7 +4,7 @@ title: "이상감지와 데이터"
 author: "박상민"
 date: 2019-03-20 12:00:00
 categories: [Tutorials, Anomaly Detection]
-tags: [Anomaly Detection, Anomaly Data]
+tags: [Anomaly Detection, Anomaly, Novelty]
 ---
 
 본 포스트에서는 머신러닝기반 이상감지 모델개발 시 고려해야할 데이터의 특징에 대해 간략하게 설명하도록 하겠습니다.
