@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "XAI_Part.1_Introduction"
+title: "Introduction"
 author: "이현호"
 date: 2019-03-20 14:00:00
 categories: [Tutorials, XAI]
