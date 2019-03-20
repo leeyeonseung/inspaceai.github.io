@@ -43,7 +43,7 @@ tags: [Anomaly Detection, Time Series, Deep Learning]
 
 * 이상감지에 적용할 수 있는 머신러닝/딥러닝 기법들을 정리해보았습니다.  
 
-   <img src="./picture/summary/Anomaly_Detection_Techniques_map.PNG"> 
+   <img src="{{ "/images/2019/Anomaly_Detection_Techniques_map.PNG" | prepend: site.baseurl }}">
 
 ## 머신러닝 기반 이상감지 모델의 어려운점
 
