@@ -2,7 +2,7 @@
 layout: post
 title: "이상감지와 데이터"
 author: "박상민"
-date: 2019-03-19 12:00:00
+date: 2019-03-20 12:00:00
 categories: [Tutorials, Anomaly Detection]
 tags: [Anomaly Detection, Time Series, Deep Learning]
 ---
