@@ -37,7 +37,7 @@ Novelty의 뜻은 새로운이라는 뜻 입니다. novelty detection은 anomaly
 
 하지만 무조건 이상 데이터라고는 할 수는 없겠죠. 이상이라고는 할 수 없지만, 정상데이터와는 다른 새로운 데이터라고 생각하시면 될 것 같습니다. 범위로보자면 novelty가 anomaly보다 더 큰 범위이겠네요.  
 
-   ![Anomaly Detection Techniques]({{ "/images/2019/Anomaly_Deteciton_And_Data_2.png" | prepend: site.baseurl }})
+   ![Data Compare]({{ "/images/2019/Anomaly_Deteciton_And_Data_2.png" | prepend: site.baseurl }})
 
 위 사진을 보시면 더 수월하게 이해가 될 것 같습니다. 위와같이 과일이 있을 때, 보라색포도는 정상입니다. 보라색포도가 정상이라고 했을 때 위 그림에서 anomaly(보라색 포도와는 다른 이상한과일)를 찾고자 합니다.
 
@@ -53,7 +53,7 @@ Novelty의 뜻은 새로운이라는 뜻 입니다. novelty detection은 anomaly
 
 비정상데이터의 이해도 필요합니다. [출처](https://brunch.co.kr/@zedoring/2)  
 
-   ![Anomaly Detection Techniques]({{ "/images/2019/Anomaly_Deteciton_And_Data_1.png" | prepend: site.baseurl }})
+   ![Anomaly Data type]({{ "/images/2019/Anomaly_Deteciton_And_Data_1.png" | prepend: site.baseurl }})
 
    > * Point anomaly : 오직 하나의 데이터에만 이상이 생긴 것 입니다. 데이터들의 그룹에서 떨어져있는 값 입니다. Point anomaly는 수월하게 찾을 수 있습니다. OOL, 클러스터링 등을 이용해서도 쉽게 찾을 수 있습니다.
    >
