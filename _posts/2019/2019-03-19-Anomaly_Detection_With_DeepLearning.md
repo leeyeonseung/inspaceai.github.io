@@ -33,7 +33,7 @@ tags: [Anomaly Detection, Time Series, Deep Learning]
    
 ## 기존 탐지 기법들의 문제점
 
-* 위와 같은 방법을 사용한 기존의 모니터링 시스템은 여러가지 문제점이 있습니다
+* 기존의 모니터링 시스템은 여러가지 문제점이 있습니다
    * 역동적이고, 복잡한 데이터들에게서 이상을 감지할 수 없습니다.
    * 원격 데이터들의 이상감지 모니터링 시스템을 운영하는데 굉장히 많은 비용과 전문지식이 필요합니다.(많은 도메인 전문가 필요)
    * OOL 기법 등의 기존 탐지 기법들은 데이터의 양이 증가하면서 한계점이 드러나고 있습니다.
@@ -43,7 +43,9 @@ tags: [Anomaly Detection, Time Series, Deep Learning]
 
 * 이상감지에 적용할 수 있는 머신러닝/딥러닝 기법들을 정리해보았습니다.  
 
-   <img src="{{ "/images/2019/Anomaly_Detection_Techniques_map.PNG" | prepend: site.baseurl }}">
+   <img src="{{ "/images/2019/Anomaly_Detection_Techniques_map.PNG" | prepend: site.baseurl }}">  
+
+* 위 기법들은 제가 공부하면서 알게된 기법들입니다. 그 외에 기법들을 말씀해주시면 수정하도록 하겠습니다.
 
 ## 머신러닝 기반 이상감지 모델의 어려운점
 
