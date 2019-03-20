@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "DenseNet 만들기"
+title: "NeuralNet 만들기"
 author: "이현호"
 date: 2019-03-20 16:00:00
 categories: [Tutorials, XAI]
 tags: [XAI, Multi-Classification]
 ---
 
-본 포스트에서는 XAI 중 Model-Agnostic Method를 적용하기 위해 간단한 Dense Network를 만들어보도록 하겠습니다.
+본 포스트에서는 XAI 중 Model-Agnostic Method를 적용하기 위해 간단한 Neural Network를 만들어보도록 하겠습니다.
 
 ---
 
