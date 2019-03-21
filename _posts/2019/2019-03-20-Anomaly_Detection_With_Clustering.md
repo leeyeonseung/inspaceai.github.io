@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "클러스터링 기반 이상감지 모델"
+title: "클러스터링 이상감지 모델"
 author: "박상민"
 date: 2019-03-20 16:00:00
 categories: [Tutorials, Anomaly Detection]

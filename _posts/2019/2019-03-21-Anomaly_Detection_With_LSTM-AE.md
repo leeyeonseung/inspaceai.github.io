@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "LSTM-AutoEncoder 기반 이상감지 모델"
+title: "LSTM-AutoEncoder 이상감지 모델"
 author: "박상민"
 date: 2019-03-21 12:00:00
 categories: [Tutorials, Anomaly Detection]
