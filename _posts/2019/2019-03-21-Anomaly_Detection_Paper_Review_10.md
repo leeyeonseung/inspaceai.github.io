@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "머신러닝 기반 이상감지 연구 논문 리뷰"
+title: "머신러닝 기반 이상감지 논문 리뷰 10"
 author: "박상민"
 date: 2019-03-21 18:00:00
 categories: [Review, Anomaly Detection]
-tags: [Anomaly Detection, Time Series Data]
+tags: [Anomaly Detection, Dynamic Threshold]
 ---
 
 본 포스트에서는 머신러닝 기반 이상감지 모델을 연구한 9개의 논문에 대해 간단하게 정리한 글 입니다.
