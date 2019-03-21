@@ -3,7 +3,7 @@ layout: post
 title: "머신러닝 기반 이상감지 연구 논문 리뷰"
 author: "박상민"
 date: 2019-03-21 18:00:00
-categories: [Revies, Anomaly Detection]
+categories: [Review, Anomaly Detection]
 tags: [Anomaly Detection, Time Series Data]
 ---
 
@@ -50,10 +50,15 @@ False Positive를 줄이고, 다양한 형태의 이상을 감지하였다고 �
 # 2. Performance assessment of NOSTRADAMUS & other machine learning-based telemetry monitoring systems on a spacecraft anomalies database [2](https://arc.aiaa.org/doi/pdf/10.2514/6.2018-2559)
 
 * 최근 몇년동안 머신러닝을 이용한 새로운 탐지방법들이 제안되었다고 말하고 있습니다.
+
 * 저자는 여러개의 이상감지 방법들을 정량적으로 비교할 때 얻은 평가방법론과 결과를 제시하고자 하였습니다.
+
 * 저자는 머신러닝 모델을 학습하는 방향(방법)이 성능 향상에 큰 영향을 미치지 않았다는 것을 강조합니다.
+
 * 데이터의 전처리가 결과에 많은 영향을 주었다고 합니다.
+
 * 머신러닝에서 가장 중요한 작업은 데이터의 이해, 문제정의, 최적의 방법찾기라고 논문에서는 말합니다.
+
 * 논문에서는 머신러닝 모델의 성능만 중요한게 아니라, 결과의 해석 가능성, 처리시간(계산 시간), 새로운 데이터에 시스템 업데이트 유무라고 밝힙니다.
 
 # 3. A Multimodal Anomaly Detector for Robot-Assisted Feeding Using an LSTM-based Variational Autoencoder [3](https://arxiv.org/pdf/1711.00614.pdf)
@@ -118,7 +123,7 @@ False Positive를 줄이고, 다양한 형태의 이상을 감지하였다고 �
 
 * Stacked 된 LSTM 네트워크는 좋은 성능을 보여주었고, RNN보다 LSTM 네트워크가 성능이 더 좋았다고 밝히고 있습니다.          
 
-    ![Paper_6]({{ "/images/2019/paper_6.png" | prepend: site.baseurl }})
+    ![Paper_6]({{ "/images/2019/paper_6.PNG" | prepend: site.baseurl }})
 
 # 7. Anomaly Detection with Generative Adversarial Networks for Multivariate Time Series [7](https://arxiv.org/pdf/1709.05342.pdf)
 
