@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "머신러닝 기반 이상감지 연구 논문 리뷰"
+title: "머신러닝 기반 이상감지 논문 리뷰 1~9"
 author: "박상민"
 date: 2019-03-21 18:00:00
 categories: [Review, Anomaly Detection]
