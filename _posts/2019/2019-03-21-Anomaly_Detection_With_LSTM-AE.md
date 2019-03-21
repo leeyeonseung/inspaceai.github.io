@@ -101,6 +101,3 @@ EWMA는 데이터의 평균을 계산하는 알고리즘 중 하나인데, 오�
 
 위에서 설명드린 Error Setting, Smoothing, Dynamic Error Thresholds에 관해서는 [논문](https://arxiv.org/pdf/1802.04431.pdf)에서 참고를 하였습니다. 논문에서 제안한 부분을 구현한 코드가 있어서 관련 코드도 공유해드립니다. [코드](https://github.com/khundman/telemanom) error와 threshold에 관한 부분은 _errors.py_에 구현되어 있습니다. 
 
-
-
-
