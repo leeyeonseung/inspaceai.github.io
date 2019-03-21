@@ -156,6 +156,13 @@ False Positive를 줄이고, 다양한 형태의 이상을 감지하였다고 �
 
 * 논문에서는 전력수요, 우주 왕복선, ECG, 그리고 2개의 real-world 엔진 데이터 셋을 이용해 실험을 진행하였다고 합니다.
 
+    ![Paper_8]({{ "/images/2019/paper_8.png" | prepend: site.baseurl }})
+
+    > 위 사진에서 첫 번째 열은 정상데이터, 두 번째 열은 비정상 데이터입니다.
+    > 1행(파란색 plot)은 실제 원본 데이터입니다.
+    > 2행(초록색 plot)은 모델의 reconstructed sequences 입니다.
+    > 3행(빨간색 plot)은 anomaly score 입니다.
+
 # 9. Time Series Anomaly Detection [9](https://arxiv.org/ftp/arxiv/papers/1708/1708.03665.pdf)
 
 * 구글의 실시간 트래픽 데이터에서 이상을 감지하기 위해서 연구를 시작하였다고 논문에서는 밝힙니다.
@@ -176,5 +183,5 @@ False Positive를 줄이고, 다양한 형태의 이상을 감지하였다고 �
 
 * 통계적인 베이스가 있는 이상감지 규칙과, 사용자가 반복적으로 false positive를 수동으로 제거할 수 있도록 쉽게 수정할 수 있는 규칙은 이상징후를 탐지할 수 있는 매우 강력한 방법이라고 말하고 있습니다.
 
-    ![Paper_9]({{ "/images/2019/paper_.png" | prepend: site.baseurl }})
+    ![Paper_9]({{ "/images/2019/paper_9.png" | prepend: site.baseurl }})
 
