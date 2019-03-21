@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "클러스터링 기반 이상감지 모델"
+title: "LSTM-AutoEncoder 기반 이상감지 모델"
 author: "박상민"
 date: 2019-03-21 12:00:00
 categories: [Tutorials, Anomaly Detection]
-tags: [Anomaly Detection, Clustering]
+tags: [Anomaly Detection, LSTM, AutoEncoder]
 ---
 
-본 포스트에서는 클러스터링 기반 이상감지 모델 중 DBSCAN에 대해 간략하게 설명하도록 하겠습니다.
+본 포스트에서는 딥러닝 LSTM-AutoEncoder 기반 이상감지 모델 대해 간략하게 설명하도록 하겠습니다.
 
 ---
 
