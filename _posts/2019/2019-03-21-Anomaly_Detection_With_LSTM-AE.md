@@ -60,7 +60,7 @@ AutoEncoder Neural Network(AutoEncoder, 오토인코더)는 비지도학습 방�
 
 정상 데이터로만 학습시킨 오토인코더 모델은 정상데이터가 입력되면 똑같이 출력할 것입니다. 만약, 기존에 학습했던 정상 데이터가 아닌 비정상 데이터(정상 데이터와는 다른)가 모델에 입력되게 된다면 모델의 출력(복원)은 입력 값이랑은 차이가 많이 날 것입니다. 기존에 학습하지 않은 데이터이기 때문이죠. 
 
-* 이상감지에는 복원 에러(Reconstruct ion Error)를 사용합니다.  __(모델 입력 - 모델 출력) = Error__ 를 사용하여 임계치(Threshold)를 정하고, 에러가 임계치를 넘게 되면 이상이라고 정의하는 것 입니다. 
+이상감지에는 복원 에러(Reconstruct ion Error)를 사용합니다.  __(모델 입력 - 모델 출력) = Error__ 를 사용하여 임계치(Threshold)를 정하고, 에러가 임계치를 넘게 되면 이상이라고 정의하는 것 입니다. 
 [아래 그림 출처](https://blog.keras.io/building-autoencoders-in-keras.html)    
     
 ![AutoEncoder]({{ "/images/2019/Autoencoder_train_anomaly.png" | prepend: site.baseurl }})
@@ -85,7 +85,7 @@ __정상데이터만 굉장히 많은 경우에 오토인코더는 효율적으�
 
 하단에 있는 plot의 검은색 선은 복원 에러 입니다. 정상인 데이터를 모델에 입력해 주었을 때는 에러가 굉장히 작게 나오는 걸 볼 수 있습니다.  
 
-![AutoEncoder]({{ "/images/2019/LSTM-AE_anoamly_test.gif" | prepend: site.baseurl }})
+![AutoEncoder]({{ "/images/2019/LSTM-AE_anomaly_test.gif" | prepend: site.baseurl }})
 
 비정상 데이터(학습되지 않은 새로운 데이터)가 모델에 입력되면 위 gif와 같이 복원 에러가 굉장히 높게 나옵니다. 복원 에러가 높게 나와 임계치를 넘어선다면 비정상구간이라고 정의할 수 있습니다.
 
