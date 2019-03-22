@@ -37,7 +37,7 @@ tags: [Anomaly Detection, Dynamic Threshold]
 * Visualization
     * 특징 추출 후에 시각화를 하여 전문가들의 소견으로 이상치 탐지
 
-# 기존 이상징후 감지 기법의 문제점
+## 기존 이상징후 감지 기법의 문제점
 
 * 기존의  spacecraft에서 원격으로 보내준 데이터(telemetry)들의 이상감지 모니터링을 하는 시스템을 유지하는데 굉장히 많은 비용과 전문지식이 필요하다.
 
