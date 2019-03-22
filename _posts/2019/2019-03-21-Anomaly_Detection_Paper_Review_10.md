@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "머신러닝 기반 이상감지 논문 리뷰 10"
+title: "[Detecting Spacecraft Anomalies Using Nonparametric Dynamic Thresholding] Paper Review"
 author: "박상민"
 date: 2019-03-21 19:00:00
 categories: [Review, Anomaly Detection]
 tags: [Anomaly Detection, Dynamic Threshold]
 ---
 
-본 포스트에서는 머신러닝 기반 이상감지 모델을 연구한 9개의 논문에 대해 간단하게 정리한 글 입니다.
+본 포스트는 NASA에서 Spacecraft Telemetry 데이터에 이상감지 모델을 적용한 논문을 간단하게 정리한 글 입니다.
 
 ---
 
