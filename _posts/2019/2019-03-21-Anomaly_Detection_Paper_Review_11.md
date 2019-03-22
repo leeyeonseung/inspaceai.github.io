@@ -55,6 +55,8 @@ tags: [Anomaly Detection, Telemetry]
 
 ## 위성 Telemetry 분석
 
+위성 Telemetry를 다음과 같이 분석했습니다.
+
 ### High Dimensionality (고차원)
 
 * 위성의 Telemetry 데이터는 고차원이다.
