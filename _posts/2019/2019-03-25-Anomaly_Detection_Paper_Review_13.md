@@ -16,11 +16,9 @@ tags: [Anomaly Detection, GAN]
 > 본 포스트는 약 4개월간 이상감지(Anomaly Detection)를 연구하게 되면서 공부했던 논문, 구현체 등을 정리해 공유하는 글 입니다. 
 >
 > 항공우주분야의 이상감지를 연구해왔기 때문에 대부분의 내용이 도메인에 밀접한 내용이 있으니 참고하시면 좋을 것 같습니다.
-> 
-> 아직 지식이 많이 부족하고, 경험이 부족하기 때문에, 고칠 것도 많을 것 같습니다. 고처야 할 부분은 언제든지 연락주시면 감사하겠습니다 :)
 
 
-# 2. Unsupervised Anomaly Detection with GANs to Guide Marker Discovery
+# 13. Unsupervised Anomaly Detection with GANs to Guide Marker Discovery
 
 * 망막 이미지 데이터의 이상징후를 감지하고, 마커로 표시하기위해 비지도학습 모델을 제안
 
