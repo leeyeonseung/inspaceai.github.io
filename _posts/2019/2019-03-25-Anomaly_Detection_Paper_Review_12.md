@@ -26,7 +26,7 @@ tags: [Anomaly Detection, AutoEncoder, SVM]
 
 * 학습된(정상)이미지 외에 이상 객체가 발견될 경우 mask로 영역표시
   
-  ![Paper_12]({{ "/images/2019/paper_12_1.png" | prepend: site.baseurl }})
+  ![Paper_12]({{ "/images/2019/paper_12_1.PNG" | prepend: site.baseurl }})
 
 ## Model Architecture
 
@@ -34,11 +34,11 @@ tags: [Anomaly Detection, AutoEncoder, SVM]
 * 복원된 이미지와 원 이미지를 이용하여 GAN을 훈련 -> Autoencder보다 약간의 성능향상
 * 정상 이미지에 대한 latent space의 distribution을 찾아냄  
 
-    ![Paper_12]({{ "/images/2019/paper_12_2.png" | prepend: site.baseurl }})
+    ![Paper_12]({{ "/images/2019/paper_12_2.PNG" | prepend: site.baseurl }})
 
 * 4개의 autoencoder 구조  
 
-    ![Paper_12]({{ "/images/2019/paper_12_6.png" | prepend: site.baseurl }})
+    ![Paper_12]({{ "/images/2019/paper_12_6.PNG" | prepend: site.baseurl }})
 
   
 ## Method
@@ -53,7 +53,7 @@ tags: [Anomaly Detection, AutoEncoder, SVM]
 
 5. 모든 패치가 분류되면 모든 패치 레이블을 그룹화하여 전체 이미지에 대한 레이블 마스크를 얻음
   
-    ![Paper_12]({{ "/images/2019/paper_12_4.png" | prepend: site.baseurl }})
+    ![Paper_12]({{ "/images/2019/paper_12_4.PNG" | prepend: site.baseurl }})
 
 ## Dataset
 
@@ -67,19 +67,19 @@ tags: [Anomaly Detection, AutoEncoder, SVM]
    * Large - Object size is larger than patch size (approximately
    128 pixel per side)  
      
-    ![Paper_12]({{ "/images/2019/paper_12_5.png" | prepend: site.baseurl }})
+    ![Paper_12]({{ "/images/2019/paper_12_5.PNG" | prepend: site.baseurl }})
 
 ## Result
 
 * Detection Result AUC 
   
-    ![Paper_12]({{ "/images/2019/paper_12_7.png" | prepend: site.baseurl }})
+    ![Paper_12]({{ "/images/2019/paper_12_7.PNG" | prepend: site.baseurl }})
 
 
-    ![Paper_12]({{ "/images/2019/paper_12_9.png" | prepend: site.baseurl }})
+    ![Paper_12]({{ "/images/2019/paper_12_9.PNG" | prepend: site.baseurl }})
 
 * Localization Result AUC 
   
-    ![Paper_12]({{ "/images/2019/paper_12_8.png" | prepend: site.baseurl }})
+    ![Paper_12]({{ "/images/2019/paper_12_8.PNG" | prepend: site.baseurl }})
 
-    ![Paper_12]({{ "/images/2019/paper_12_10.png" | prepend: site.baseurl }})
+    ![Paper_12]({{ "/images/2019/paper_12_10.PNG" | prepend: site.baseurl }})
