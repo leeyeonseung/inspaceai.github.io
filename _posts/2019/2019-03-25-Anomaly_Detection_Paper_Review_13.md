@@ -43,7 +43,7 @@ tags: [Anomaly Detection, GAN]
 
 * 훈련된 Generator & Discriminator의 파라미터를 고정한 채 Queary 이미지를 G모델에 입력
 
-* 정상 이미지의 경우 학습된 정상 이미지의 latent space(z)로 맵핑이 되지만, 비정상 이미지일 경우 벗어나게 됨 -> cost function의 오차가 발생  
+* 정상 이미지의 경우 학습된 정상 이미지의 latent space(z)로 맵핑이 되지만, 비정상 이미지일 경우 벗어나게 됨 -> cost function의 오차가 발생 [아래 그림 출처](https://www.slideshare.net/ssuser06e0c5/anomaly-detection-using-deep-one-class-classifier)  
   
     ![Paper_13]({{ "/images/2019/paper_13_3.PNG" | prepend: site.baseurl }})
 
