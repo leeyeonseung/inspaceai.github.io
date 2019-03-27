@@ -33,4 +33,4 @@ tags: [Anomaly Detection, GAN]
 
 * Secure Water Treatment Testbed(SWaT) 데이터 셋을 사용해 테스트를 하였으며, 다른 비지도학습 이상감지 기법보다 성능이 좋았다고 말하고 있습니다.
 
-    ![Paper_7]({{ "/images/2019/paper_7.png" | prepend: site.baseurl }})
+    ![Paper_7]({{ "/images/sangmin/paper_7.png" | prepend: site.baseurl }})

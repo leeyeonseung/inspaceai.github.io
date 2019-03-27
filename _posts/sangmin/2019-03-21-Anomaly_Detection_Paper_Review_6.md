@@ -31,4 +31,4 @@ tags: [Anomaly Detection, LSTM]
 
 * Stacked 된 LSTM 네트워크는 좋은 성능을 보여주었고, RNN보다 LSTM 네트워크가 성능이 더 좋았다고 밝히고 있습니다.          
 
-    ![Paper_6]({{ "/images/2019/paper_6.PNG" | prepend: site.baseurl }})
+    ![Paper_6]({{ "/images/sangmin/paper_6.PNG" | prepend: site.baseurl }})

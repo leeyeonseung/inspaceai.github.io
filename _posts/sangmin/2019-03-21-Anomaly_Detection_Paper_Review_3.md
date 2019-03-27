@@ -28,7 +28,7 @@ tags: [Anomaly Detection, LSTM-VAE]
 
 * LSTM-VAE(LSTM based variational autoencoder)를 이용해 Anomaly Score를 계산하였습니다. 
 
-    ![Paper_3]({{ "/images/2019/paper_3.png" | prepend: site.baseurl }})
+    ![Paper_3]({{ "/images/sangmin/paper_3.png" | prepend: site.baseurl }})
 
 * Anomaly Score가 Threshold를 넘어서게 되면 이상이라고 판단을 합니다.
 

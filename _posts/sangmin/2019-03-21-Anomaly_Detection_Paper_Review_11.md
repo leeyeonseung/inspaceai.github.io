@@ -20,7 +20,7 @@ tags: [Anomaly Detection, Telemetry]
 
 # 11. A Data-Driven Health Monitoring Method for Satellite Housekeeping Data Based on Probabilistic Clustering and Dimensionality Reduction [11](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7859276)
 
-![Paper_11]({{ "/images/2019/paper_11_1.png" | prepend: site.baseurl }})
+![Paper_11]({{ "/images/sangmin/paper_11_1.png" | prepend: site.baseurl }})
 
 > 'A Data-Driven Health Monitoring Method for Satellite Housekeeping Data Based on Probabilistic Clustering and Dimensionality Reduction' 논문입니다.
 >
@@ -99,12 +99,12 @@ tags: [Anomaly Detection, Telemetry]
 
 * 아래사진은 논문에서 missing data의 missing 여부를 시각화 한 것입니다. 흰색은 누락된 부분이고, 검은색은 누락되지 않은 부분입니다.
 
-![Paper_11]({{ "/images/2019/paper_11_2.png" | prepend: site.baseurl }})
+![Paper_11]({{ "/images/sangmin/paper_11_2.png" | prepend: site.baseurl }})
 
 ### Trivial Outliers (사소한 이상치들)
 
 * 위성 Telemetry 데이터에서는 가끔씩 굉장히 큰 이상데이터들이 데이터 변환 또는 전송오류로 생길 수도 있다.
-![Paper_11]({{ "/images/2019/paper_11_3.png" | prepend: site.baseurl }})
+![Paper_11]({{ "/images/sangmin/paper_11_3.png" | prepend: site.baseurl }})
 
 * 위성 Telemetry 데이터에서는 가끔씩 굉장히 큰 이상데이터들이 데이터 변환 또는 전송오류로 생길 수도 있다는 것 이다.
 * 중요한 점은 이러한 오류들(point)이 오직 데이터 변환 또는 전송 오류로만 인해서 발생하고, 심각한 이상징후를 나타내지 않는 것 이다.
@@ -129,7 +129,7 @@ tags: [Anomaly Detection, Telemetry]
     * 그 값은 비슷한 시간에 있는 값들과 매우 다르다는 것
 
 * Trivial outliers를 탐지하고, 제거하기 위한 수식입니다. 상한선과 하한선을 설정하고, 상하한선을 넘을 경우 제거합니다.
-![Paper_11]({{ "/images/2019/paper_11_4.png" | prepend: site.baseurl }})
+![Paper_11]({{ "/images/sangmin/paper_11_4.png" | prepend: site.baseurl }})
 
 ### Missing value completion
 
@@ -150,40 +150,40 @@ tags: [Anomaly Detection, Telemetry]
 논문에서는 Anomaly Score를 산출하는 방법의 대해서도 작성하였습니다. Anomlay Score를 모니터링 담당자에게 중요한 지표가 될 것이라고 하였습니다.  수식적으로 복잡하게 작성되어있습니다. __이현호__ 연구원께서 관련 부분을 이해하는데 많은 도움을 주셨습니다.
 
 Anomaly Score는 내가 뽑은 데이터 샘플의 희귀한 정도를 수치화시켜 나타낸 것 입니다.(희귀할수록 score는 높아지게 됩니다.)  
-![Paper_11]({{ "/images/2019/paper_11_5.PNG" | prepend: site.baseurl }})
+![Paper_11]({{ "/images/sangmin/paper_11_5.PNG" | prepend: site.baseurl }})
 
 Anomaly Score는 Gaussian Mixture Model를 사용하였습니다. 간단하게 방식에 대해 설명드리기 전에 Guassain Mixture Model의 대한 설명을 잠깐 드리고, anomaly score를 산출하는 방법에 대해 간단하게 설명하겠습니다.
 
 GMM(Gaussian Mixture Model)은 데이터가 K개의 정규분포로부터 생성되었다고 보는 모델입니다.  
 
-![Paper_11]({{ "/images/2019/paper_11_6.png" | prepend: site.baseurl }})
+![Paper_11]({{ "/images/sangmin/paper_11_6.png" | prepend: site.baseurl }})
 
 위 사진의 분포를 더 자세히보면 아래 사진과 같은 3개의 정규분포로 되어있는 걸 볼 수 있습니다.  
 
-![Paper_11]({{ "/images/2019/paper_11_7.png" | prepend: site.baseurl }})
+![Paper_11]({{ "/images/sangmin/paper_11_7.png" | prepend: site.baseurl }})
 위 사진과 같이 GMM은 K개의 정규분포로 데이터가 생성되었다고 보는 모델입니다.  
 
 아래사진처럼 2차원과 3차원에서도 가능합니다.  
-![Paper_11]({{ "/images/2019/paper_11_8.png" | prepend: site.baseurl }})
+![Paper_11]({{ "/images/sangmin/paper_11_8.png" | prepend: site.baseurl }})
 
 아래와 같이 C1 ~ C6까지 총 6개의 클러스터링 된 굉장히 이상적인 데이터 분포가 있다고 생각을 해보겠습니다.  
-![Paper_11]({{ "/images/2019/paper_11_12.png" | prepend: site.baseurl }})
+![Paper_11]({{ "/images/sangmin/paper_11_12.png" | prepend: site.baseurl }})
 
 각 클러스터의 데이터 샘플들의 개수는 다음과 같습니다.  
-![Paper_11]({{ "/images/2019/paper_11_13.png" | prepend: site.baseurl }})  
+![Paper_11]({{ "/images/sangmin/paper_11_13.png" | prepend: site.baseurl }})  
 
 각 클러스터들의 데이터 샘플 개수가 위의 사진과 같다면, 전체 데이터 중 하나의 데이터를 뽑았을 때 그 데이터의 클러스터를 뽑을 확률을 구해야합니다.  
 
-![Paper_11]({{ "/images/2019/paper_11_14.png" | prepend: site.baseurl }})
+![Paper_11]({{ "/images/sangmin/paper_11_14.png" | prepend: site.baseurl }})
 
 만약 내가 C1에 속한 데이터를 하나 뽑았다면, 확률 p는 1/5일 것 입니다.  C6에 속한 데이터를 하나 뽑았다면, p는 1/40일 것 입니다. 즉 클러스터에 속한 데이터 샘플들의 개수가 적을수록 p는 낮아질 것 입니다.  
-![Paper_11]({{ "/images/2019/paper_11_9.png" | prepend: site.baseurl }})
+![Paper_11]({{ "/images/sangmin/paper_11_9.png" | prepend: site.baseurl }})
 
 아까 구한 p의 -log를 계산합니다. -log를 씌우게 되면 값이 p가 1에 가까울수록, -log(p)는 0에 수렴합니다. 반대로 p가 0에 가까울수록, -log(p)는 무한대로 발산하게 됩니다.
-![Paper_11]({{ "/images/2019/paper_11_10.png" | prepend: site.baseurl }})
+![Paper_11]({{ "/images/sangmin/paper_11_10.png" | prepend: site.baseurl }})
 
 아래 사진과 같이 p확률을 구하고, -log(p)를 계산하면 우리가 원하는 anomaly score가 나오게 됩니다. p가 낮을 수록, score는 높아지게 되는 것이고, 이는 내가 뽑은 하나의 데이터가 속한 클러스터에서 그 클러스터에 속한 데이터 개수가 적을수록, p는 높아질 것이고, score도 높아진다는 것 입니다.  
-![Paper_11]({{ "/images/2019/paper_11_11.png" | prepend: site.baseurl }})
+![Paper_11]({{ "/images/sangmin/paper_11_11.png" | prepend: site.baseurl }})
 
 ## Conclusion
 
