@@ -25,7 +25,7 @@ Kaggle은 최초로 Kaggle Kernels와 데이터셋이 모두 공유되어야 하
 
 지난분기에, Kaggle은 개인의 데이터셋을 출시하였습니다. 이를 통해 개인 데이터셋을 Kaggle에 업로드하고 Kernel에서 Python 또는 R 코드를 실행할 수 있습니다. 사용자는 최대 20GB 할당량까지 무제한의 개인 데이터셋 업로드가 가능합니다. 모든 새 데이터셋은 기본적으로 개인 데이터로 설정됩니다. www.kaggle.com/datasets의 "New Dataset"을 클릭하거나 Kernel editor의 데이터 탭에서 "Upload a Dataset"를 클릭하여 데이터 세트를 생성할 수 있습니다.
 
-![개인데이터셋추가]({{ "/images/2019/upload_privatedataset.png" | prepend: site.baseurl }})
+![개인데이터셋추가]({{ "/images/ysl/upload_privatedataset.png" | prepend: site.baseurl }})
 
 개인 데이터셋을 만들고 나면 1월에 출시해 3월에 확장한 Kaggle API를 통해 새로운 버전을 게시하여 계속 업데이트할 수 있습니다. 이 API를 사용하면 명령줄에서 데이터를 다운로드하고 대회 제품을 제출할 수 있습니다.
 
@@ -47,7 +47,7 @@ Kaggle은 항상 노트북을 interactive 모드로 사용했고 이번 분기�
 
 우리는 Kaggle Kernels의 compute 한계를 1시간에서 6시간으로 확대했습니다. 따라서 실행할 수 있는 모델과 분석할 수 있는 데이터셋의 크기와 복잡성이 증가합니다. 이러한 확장된 compute 제한은 interactive 세션과 batch 세션 모두에 적용됩니다. Kernel에 custom packages를 설치하는 기능을 추가했습니다. Kernel editor의 "Setting" 탭에서 이 작업을 수행할 수 있습니다. Python에서 PyPI 또는 GitHub의 패키지에 대해 "pip install" 명령을 실행하십시오. R의경우에는  GitHub의 패키지에 대해 "devtools::install_github" 명령을 실행하십시오. 이러한 일은 추가된 패키지를 포함하도록 기본 contatiner를 확장합니다. 이 사용자 정의 container에서 후속 kernel fork/edits를 실행하면 여러분과 다른 사람들이 여러분의 결과를 더 쉽게 재현하고 구축할 수 있도록 합니다.
 
-![복잡한프로젝트만들기]({{ "/images/2019/makecomplex.png" | prepend: site.baseurl }})
+![복잡한프로젝트만들기]({{ "/images/ysl/makecomplex.png" | prepend: site.baseurl }})
 
 또한, Kaggle은 Kaggle Kernels의 견고함을 향상시키는데 초점을 맞추었습니다. Kaggle이 한일들은 Kernel을 좀더 안정적이고 매끄럽게 변화시킬 것입니다. 여기서 무슨 문제가 생기면 [Kaggle](https://www.kaggle.com/product-feedback)에게 알려주세요.
 
@@ -55,7 +55,7 @@ Kaggle은 항상 노트북을 interactive 모드로 사용했고 이번 분기�
 
 데이터셋을 업로드하거나 Kernel을 작성하여 새 프로젝트를 시작하면 공동작업자와 작업을 공유할 수 있습니다. 이러한 일들은 그들이 당신의 프로젝트를 보고, 논평하고, 구축할 수 있게 해줄 것입니다.
 
-![프로젝트공유]({{ "/images/2019/shareproject.png" | prepend: site.baseurl }})
+![프로젝트공유]({{ "/images/ysl/shareproject.png" | prepend: site.baseurl }})
 뷰어 또는 편집자로 공동작업자를 추가할 수 있습니다.
 
 데이터셋의 뷰어는 데이터에 대한 커널을 보고 다운로드하고 쓸 수 있다. 또한, 편집자는 새로운 데이터 세트 버전을 생성할 수 있다.

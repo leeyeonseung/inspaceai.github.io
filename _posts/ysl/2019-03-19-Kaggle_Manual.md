@@ -19,7 +19,7 @@ tags: [Kaggle]
 
 ## 비즈니스
 
-![사업]({{ "/images/2019/kaggle_business.png" | prepend: site.baseurl }})
+![사업]({{ "/images/ysl/kaggle_business.png" | prepend: site.baseurl }})
 
 세계에서 가장 큰 데이터 과학자 커뮤니티에서 가장 어려운 비즈니스 문제에 대해 상담하십시오. [더 알아보기](https://www.kaggle.com/host/business)
 
@@ -30,19 +30,19 @@ Kaggle에서 찾아보세요. Kaggle이 감독하는 머신러닝 대회는 당�
 ##  어떻게 작동하는가
 
 * 정의: 당신이 소지한 가치가 있는 머신러닝 문제를 확인하세요.
-    ![사업정의]({{ "/images/2019/kaggle_businessdefinition.png" | prepend: site.baseurl }})
+    ![사업정의]({{ "/images/ysl/kaggle_businessdefinition.png" | prepend: site.baseurl }})
 * 범위: Kaggle과 협력하여 문제 명세서를 다듬고 데이터 세트를 확정합니다.
-    ![사업범위]({{ "/images/2019/kaggle_businessscope.png" | prepend: site.baseurl }})
+    ![사업범위]({{ "/images/ysl/kaggle_businessscope.png" | prepend: site.baseurl }})
 * 생성: 당신의 대회 페이지를 생성할 때 Kaggle과 협력하세요.
-    ![사업생성]({{ "/images/2019/kaggle_businesscreate.png" | prepend: site.baseurl }})
+    ![사업생성]({{ "/images/ysl/kaggle_businesscreate.png" | prepend: site.baseurl }})
 * 시작: 포럼에 참가하고, 공유 코드를 검토하고, 리더보드에서 모델이 향상되는 것을 지켜보세요.
-    ![사업시작]({{ "/images/2019/kaggle_businessstart.png" | prepend: site.baseurl }})
+    ![사업시작]({{ "/images/ysl/kaggle_businessstart.png" | prepend: site.baseurl }})
 * 학습: 대회 수상자에게서 코드와 문서를 받고, 지식 전달 전화에 따라 후속 조치를 취합니다.
-    ![사업학습]({{ "/images/2019/kaggle_businessstudy.png" | prepend: site.baseurl }})
+    ![사업학습]({{ "/images/ysl/kaggle_businessstudy.png" | prepend: site.baseurl }})
 
 ## 모집
 
-![모집]({{ "/images/2019/kaggle_recruit.png" | prepend: site.baseurl }})
+![모집]({{ "/images/ysl/kaggle_recruit.png" | prepend: site.baseurl }})
 
 ### 맞춤형 경쟁과 후보 코드, 협업 및 성과에 대한 가시성을 통해 팀의 최고의 적임자를 찾으십시오.
 
@@ -57,19 +57,19 @@ Kaggle에서 찾아보세요. Kaggle이 감독하는 머신러닝 대회는 당�
 ###  어떻게 작동하는가
 
 * 정의: 조직의 데이터 과학 작업을 나타내는 사용 사례를 선택한다.
-    ![모집정의]({{ "/images/2019/kaggle_recruitdefinition.png" | prepend: site.baseurl }})
+    ![모집정의]({{ "/images/ysl/kaggle_recruitdefinition.png" | prepend: site.baseurl }})
 * 범위: Kaggle과 협력하여 문제 명세서를 다듬고 데이터 세트를 확정합니다.
-    ![모집범위]({{ "/images/2019/kaggle_recruitscope.png" | prepend: site.baseurl }})
+    ![모집범위]({{ "/images/ysl/kaggle_recruitscope.png" | prepend: site.baseurl }})
 * 생성: 당신의 대회 페이지를 생성할 때 취업 기회도 포함하여, Kaggle과 협력하세요.
-    ![모집생성]({{ "/images/2019/kaggle_recruitcreate.png" | prepend: site.baseurl }})
+    ![모집생성]({{ "/images/ysl/kaggle_recruitcreate.png" | prepend: site.baseurl }})
 * 시작: 포럼에 참여하고, 공유 코드를 검토하고, 당신의 회사 문화의 예를 보여주세요.
-    ![모집시작]({{ "/images/2019/kaggle_recruitstart.png" | prepend: site.baseurl }})
+    ![모집시작]({{ "/images/ysl/kaggle_recruitstart.png" | prepend: site.baseurl }})
  * 고용: 참가자들이 제출한 스크린 이력서와 맞춤형 후보 보고서를 사용하여 채용을 시작합니다.
-    ![모집고용]({{ "/images/2019/kaggle_recruitemployment.png" | prepend: site.baseurl }})
+    ![모집고용]({{ "/images/ysl/kaggle_recruitemployment.png" | prepend: site.baseurl }})
 
 ## 연구
 
-![연구]({{ "/images/2019/kaggle_research.png" | prepend: site.baseurl }})
+![연구]({{ "/images/ysl/kaggle_research.png" | prepend: site.baseurl }})
 
 ### 사회적 이익을 위한 당신의 머신러닝 연구 문제를 Kaggle에서 해결하십시오.
 
@@ -110,19 +110,19 @@ Kaggle과 예비 호스트는 대회를 개최하고 시작하기 전에 심사 
 
 ## Kaggle의 무료 셀프서비스 플랫폼을 사용하여 여러분의 학생들을 참여시키고 영감을 주는 교실 대회를 만드세요.
 
-![인클래스작동방법]({{ "/images/2019/kaggle_InClassmethodofoperation.png" | prepend: site.baseurl }})
+![인클래스작동방법]({{ "/images/ysl/kaggle_InClassmethodofoperation.png" | prepend: site.baseurl }})
 
 ### 어떻게 작동하는가
 
 [첫 번째 대회를 설정하는 방법과 플랫폼을 가장 잘 활용하는 방법에 대해 알아보려면 여기를 클릭하십시오.](https://www.kaggle.com/about/inclass/how-it-works)
 
-![인클래스질문사항]({{ "/images/2019/kaggle_InClassquestion.png" | prepend: site.baseurl }})
+![인클래스질문사항]({{ "/images/ysl/kaggle_InClassquestion.png" | prepend: site.baseurl }})
 
 ### FAQs
 
 [Kaggle은 다른 InClass 호스트들의 피드백과 지식을 편집하여 당신이 또다시 그것을 생각하지 않아도 됩니다.](https://www.kaggle.com/about/inclass/faqs)
 
-![인클래스주제]({{ "/images/2019/kaggle_InClasstopic.png" | prepend: site.baseurl }})
+![인클래스주제]({{ "/images/ysl/kaggle_InClasstopic.png" | prepend: site.baseurl }})
 
 ### 주제
 
@@ -133,13 +133,13 @@ Kaggle과 예비 호스트는 대회를 개최하고 시작하기 전에 심사 
 ## Kaggle의 셀프서비스 플랫폼을 사용하여 학생들을 위한 재미있고 매력적인 기계 학습 대회를 만드는 방법을 배우세요
 
 * 정의: 머신러닝 문제와 당신의 학생들이 학습하기 위해 사용하는 분류된 데이터 셋 모델을 식별합니다.
-    ![인클래스정의]({{ "/images/2019/kaggle_InClassdefinition.png" | prepend: site.baseurl }})
+    ![인클래스정의]({{ "/images/ysl/kaggle_InClassdefinition.png" | prepend: site.baseurl }})
 * 생성: 셀프서비스 마법사를 사용하여 데이터를 업로드하고, 평가 metric을 선택하고, 문제 진술을 조작하십시오.
-    ![인클래스생성]({{ "/images/2019/kaggle_InClasscreate.png" | prepend: site.baseurl }})
+    ![인클래스생성]({{ "/images/ysl/kaggle_InClasscreate.png" | prepend: site.baseurl }})
 * 초대: 학생들과 공유할 공개 초대 링크를 만드십시오.
-    ![인클래스초대]({{ "/images/2019/kaggle_InClassinvitation.png" | prepend: site.baseurl }})
+    ![인클래스초대]({{ "/images/ysl/kaggle_InClassinvitation.png" | prepend: site.baseurl }})
 * 시작: 일단 당신의 대회를 테스트하면, 당신은 시작할 수 있습니다. 당신의 학생들은 제출을 시작할 수 있고 라이브 리더보드에서 그들의 점수를 볼 수 있습니다.
-    ![인클래스시작]({{ "/images/2019/kaggle_InClassstart.png" | prepend: site.baseurl }})
+    ![인클래스시작]({{ "/images/ysl/kaggle_InClassstart.png" | prepend: site.baseurl }})
 
 [설정 가이드](https://storage.googleapis.com/kaggle-media/random/InClassSetupGuide.pdf)
 
@@ -153,7 +153,7 @@ Competition wizard는 당신이 대회를 개최할 곳입니다. wizard는 당�
 
 대회를 만들기 위해서는 먼저 깔끔한 데이터 셋이 필요합니다. Kaggle은 머신러닝에 친숙한 데이터 셋을 이곳에 정리했습니다. 당신은 또한 Kaggle의 데이터 셋 플랫폼을 탐색하여 특정 주제에 대한 데이터를 찾을 수 있습니다. 검색 박스를 사용하여 특정 주제에 대해 태그가 지정된 데이터를 찾을 수 있습니다. tag:'\[topic\]'을 입력하세요
 
-    ![데이터셋검색]({{ "/images/2019/kaggle_datasetsearch.png" | prepend: site.baseurl }})
+    ![데이터셋검색]({{ "/images/ysl/kaggle_datasetsearch.png" | prepend: site.baseurl }})
 
 ### 스코어링 설정
 
@@ -168,7 +168,7 @@ Competition wizard는 당신이 대회를 개최할 곳입니다. wizard는 당�
 
 모든 Inclass 대회는 public과 private 리더보드를 가지고 있습니다. 이 두 개의 리더보드 간에 데이터를 수동으로 분리하려면, 당신은 당신의 데이터 셋에 'Uage' column을 추가하여야 합니다. Usage column은 데이터 셋의 마지막 column이어야 하며 Public 또는 Private의 두 가지 값 중 하나를 가져야 합니다. 당신이 만약에 Usage column을 제공하지 않으면 행은 빈칸에 자동으로 샘플을 넣을 것입니다. Public 행은 대회가 진행되는 동안에 실시간 리더보드를 생성합니다. Private 행은 최종 순위를 결정하기 위해 사용되며, 대회가 끝날 때까지 오직 당신만이 볼 수 있습니다.
 
-   ![데이터셋]({{ "/images/2019/kaggle_dataset.png" | prepend: site.baseurl }})
+   ![데이터셋]({{ "/images/ysl/kaggle_dataset.png" | prepend: site.baseurl }})
 
 여기서는 위의 데이터 셋에서 Prediction1과 Prediction2를 모두 예상 Column에 매핑하고, 두 칼럼 모두 점수 매김에서 균일하게 계수 한다.(그것들이 하나의 큰 column인 것처럼)
 
@@ -176,16 +176,16 @@ Competition wizard는 당신이 대회를 개최할 곳입니다. wizard는 당�
 
 일부 metrics에서는 여러 개의 열을 동시에 기록할 수 있습니다. 이를 위해 솔루션 파일의 각 열을 메트릭의 동일한 열에 매핑합니다.(대부분의 지표에서 그 column의 이름은 "expected"입니다.) 이러한 경우에는 솔루션 파일은 다음과 같습니다.
 
-   ![데이터셋]({{ "/images/2019/kaggle_solutionfile.png" | prepend: site.baseurl }})
+   ![데이터셋]({{ "/images/ysl/kaggle_solutionfile.png" | prepend: site.baseurl }})
 
 일부 metrics는 직사각형 CSV 형식에 맞지 않도록 가변적인 수의 예측을 허용한다. 이러한 대부분의 metrics들은 공간적으로 범위가 정해진 목록을 수용하기 위해 작성되었습니다. 아래의 표가 그 예입니다.
-   ![매트릭스]({{ "/images/2019/kaggle_metrics.png" | prepend: site.baseurl }})
+   ![매트릭스]({{ "/images/ysl/kaggle_metrics.png" | prepend: site.baseurl }})
 
 ### 샘플 제출 파일
 
 제출 파일에는 채점에 관련되지 않는 정보가 포함되어서는 안 됩니다. 선택한 metric에 따라, 당신은 metric이 기대하는 column에 각 파일의 column이 매핑 되도록 요청받을 것이다. 예제 제출 파일 형식은 다음과 같습니다.
 
-   ![샘플파일]({{ "/images/2019/kaggle_samplefile.png" | prepend: site.baseurl }})
+   ![샘플파일]({{ "/images/ysl/kaggle_samplefile.png" | prepend: site.baseurl }})
 
 ### 벤치마크 솔루션
 
@@ -195,19 +195,19 @@ Competition wizard는 당신이 대회를 개최할 곳입니다. wizard는 당�
 
 일단 당신이 솔루션과 제출 파일을 매핑하면 당신은 제출 샌드박스에서 제출 파일을 시험할 수 있습니다. 이때 채점이 효과가 있는지 확인해야 합니다. 포맷을 작동시키려면 포맷을 몇 번 수정해야 할 수도 있지만, 시스템이 파일에 이상이 있을 경우 명확한 오류 메시지를 제공해야 합니다.
 
-   ![대회테스트]({{ "/images/2019/kaggle_competitiontest.png" | prepend: site.baseurl }})
+   ![대회테스트]({{ "/images/ysl/kaggle_competitiontest.png" | prepend: site.baseurl }})
 
 ### 학생 초대
 
 Host > Privacy 탭의 고유한 URL을 공유하여 경쟁사에 학생을 초대할 수 있습니다. 이 URL을 가진 사람은 누구나 대회에 참가할 수 있으므로 그것이 여러분의 그룹 밖으로 유포되지 않도록 하십시오.
 
-   ![학생초대]({{ "/images/2019/kaggle_invitationstudent.png" | prepend: site.baseurl }})
+   ![학생초대]({{ "/images/ysl/kaggle_invitationstudent.png" | prepend: site.baseurl }})
 
 ### 대회 시작
 
 Host > Launch Checklist로 이동하여 모든 상자가 녹색으로 체크되었는지 확인하십시오. 그 박스들이 녹색이 되면 이제 당신의 대회는 개최될 수 있습니다. 대회가 개최 중이라면 "Competition is active라는 문구가 뜰 것입니다.
 
-   ![대회시작]({{ "/images/2019/kaggle_competitionstart.png" | prepend: site.baseurl }})
+   ![대회시작]({{ "/images/ysl/kaggle_competitionstart.png" | prepend: site.baseurl }})
 
 # 도움이 필요 하십니까? 기다리지 말고 바로 FAQ에 바로 질문하세요
 
@@ -271,12 +271,12 @@ Kaggle Inclass 대회의 유치와 참가에 관한 교사와 학생들의 가�
 # InClass 만드는 방법
 
 1. Kaggle 홈페이지 접속 후 로그인을 합니다.
-    ![Inclass만들기1]({{ "/images/2019/kaggle_makeInClass1.png" | prepend: site.baseurl }})
+    ![Inclass만들기1]({{ "/images/ysl/kaggle_makeInClass1.png" | prepend: site.baseurl }})
 2. 로그인 후 ①메뉴를 클릭 후에 ②메뉴를 클릭합니다.
-    ![Inclass만들기2]({{ "/images/2019/kaggle_makeInClass2.png" | prepend: site.baseurl }})
+    ![Inclass만들기2]({{ "/images/ysl/kaggle_makeInClass2.png" | prepend: site.baseurl }})
 3. ③메뉴를 클릭하게 되면 가운데 흰 색창이 뜨는데 ④ 파란 글자를 클릭해줍니다.
-    ![Inclass만들기3]({{ "/images/2019/kaggle_makeInClass3.png" | prepend: site.baseurl }})
+    ![Inclass만들기3]({{ "/images/ysl/kaggle_makeInClass3.png" | prepend: site.baseurl }})
 4. ⑤메뉴를 클릭해줍니다.
-    ![Inclass만들기4]({{ "/images/2019/kaggle_makeInClass4.png" | prepend: site.baseurl }})
+    ![Inclass만들기4]({{ "/images/ysl/kaggle_makeInClass4.png" | prepend: site.baseurl }})
 5. ⑥, ⑦ 메뉴에 순서대로 제목과 부제목 입력 후 ⑧메뉴를 클릭하여 본인 설정 집단을 생성이 됩니다.
-    ![Inclass만들기5]({{ "/images/2019/kaggle_makeInClass5.png" | prepend: site.baseurl }})
+    ![Inclass만들기5]({{ "/images/ysl/kaggle_makeInClass5.png" | prepend: site.baseurl }})
