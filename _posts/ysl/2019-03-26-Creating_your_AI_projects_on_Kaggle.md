@@ -75,3 +75,5 @@ Kaggle은 [BigQuery Public Datasets](https://www.kaggle.com/datasets)에 대한 
 데이터셋, 대회 및 커널을 주제별로 쉽게 탐색할 수 있도록 하기 위해 Kaggle에 대한 다양한 주제에 대한 [개요 페이지](https://www.kaggle.com/tags)를 발행했습니다.
 
 원본 \([https://towardsdatascience.com/creating-your-ai-projects-on-kaggle-ff49f679f611](https://towardsdatascience.com/creating-your-ai-projects-on-kaggle-ff49f679f611)\)
+
+이글은 원작성자의 번역 동의를 받았습니다.
