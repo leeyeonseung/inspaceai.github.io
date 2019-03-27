@@ -73,3 +73,5 @@ Kaggle은 [BigQuery Public Datasets](https://www.kaggle.com/datasets)에 대한 
 많은 분들이 이전에 출판한 콘텐츠에 대한 더 많은 통제와 삭제 능력을 원한다고 말해 주셨습니다. 이제 사용자들은데이터 세트, 커널, 주제 및 Kaggle에 작성한 설명을 삭제할 수 있습니다. 이것들은 [[삭제된] 기록](https://www.kaggle.com/deleted-dataset/949)을 남기기 때문에 관련된 커널이나 코멘트는 여전히 어떤 맥락을 가지고 있습니다.
 
 데이터셋, 대회 및 커널을 주제별로 쉽게 탐색할 수 있도록 하기 위해 Kaggle에 대한 다양한 주제에 대한 [개요 페이지](https://www.kaggle.com/tags)를 발행했습니다.
+
+원본 \([https://towardsdatascience.com/creating-your-ai-projects-on-kaggle-ff49f679f611](https://towardsdatascience.com/creating-your-ai-projects-on-kaggle-ff49f679f611)\)
