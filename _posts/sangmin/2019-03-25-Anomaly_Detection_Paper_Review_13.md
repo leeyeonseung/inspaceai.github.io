@@ -24,7 +24,7 @@ tags: [Anomaly Detection, GAN]
 
 * 정상 데이터만을 이용하여 학습시킨 GAN 모델을 사용해 query 이미지의 정상/비정상 여부와 비정상 영역을 찾아내고자 함  
   
-   ![Paper_13]({{ "/images/2019/paper_13_1.PNG" | prepend: site.baseurl }})
+   ![Paper_13]({{ "/images/sangmin/paper_13_1.PNG" | prepend: site.baseurl }})
 
 
 ### __Method__
@@ -35,7 +35,7 @@ tags: [Anomaly Detection, GAN]
 
 * Generative 모델은 fake 이미지를 real 이미지와 유사하게 만들기위해 real 이미지의 latent space를 맵핑  
    
-    ![Paper_13]({{ "/images/2019/paper_13_2.PNG" | prepend: site.baseurl }})
+    ![Paper_13]({{ "/images/sangmin/paper_13_2.PNG" | prepend: site.baseurl }})
 
 * G모델이 만든 fake 이미지와 real image를 구별하도록(판별) Discriminator를 훈련
 
@@ -43,12 +43,12 @@ tags: [Anomaly Detection, GAN]
 
 * 정상 이미지의 경우 학습된 정상 이미지의 latent space(z)로 맵핑이 되지만, 비정상 이미지일 경우 벗어나게 됨 -> cost function의 오차가 발생 [아래 그림 출처](https://www.slideshare.net/ssuser06e0c5/anomaly-detection-using-deep-one-class-classifier)  
   
-    ![Paper_13]({{ "/images/2019/paper_13_3.PNG" | prepend: site.baseurl }})
+    ![Paper_13]({{ "/images/sangmin/paper_13_3.PNG" | prepend: site.baseurl }})
 
 
 * Anomaly Score가 높으면 비정상 이미지 / 낮으면 정상 이미지
   
-    ![Paper_13]({{ "/images/2019/paper_13_4.PNG" | prepend: site.baseurl }})
+    ![Paper_13]({{ "/images/sangmin/paper_13_4.PNG" | prepend: site.baseurl }})
 
 
 ### Dataset
@@ -68,7 +68,7 @@ tags: [Anomaly Detection, GAN]
 
 * DCGAN 구조 사용하여 64x64 사이즈의 이미지를 학습   
   
-    ![Paper_13]({{ "/images/2019/paper_13_5.PNG" | prepend: site.baseurl }})
+    ![Paper_13]({{ "/images/sangmin/paper_13_5.PNG" | prepend: site.baseurl }})
 
 
 * 채널 (1024-512-256-128) -> 채널 (512-256-128)
@@ -77,9 +77,9 @@ tags: [Anomaly Detection, GAN]
 
 * 모델 결과
 
-    ![Paper_13]({{ "/images/2019/paper_13_6.PNG" | prepend: site.baseurl }})
+    ![Paper_13]({{ "/images/sangmin/paper_13_6.PNG" | prepend: site.baseurl }})
 
 * 타 모델과의 성능지표 비교  
   
-    ![Paper_13]({{ "/images/2019/paper_13_7.PNG" | prepend: site.baseurl }})
+    ![Paper_13]({{ "/images/sangmin/paper_13_7.PNG" | prepend: site.baseurl }})
 

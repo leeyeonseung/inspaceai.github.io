@@ -25,7 +25,7 @@ Vanishing Gradient Problem은 인공신경망이 기울기 값이 사라지는 �
 
 이를 해결하기 위해 가중치를 잘 초기화 하는 방법, ReLU activation 함수를 사용하는 방법 등이 있습니다. [아래 그림 출처](https://medium.com/tinymind/a-practical-guide-to-relu-b83ca804f1f7)   
 
-![ReLU]({{ "/images/2019/ReLU.png" | prepend: site.baseurl }})
+![ReLU]({{ "/images/sangmin/ReLU.png" | prepend: site.baseurl }})
 
 좀 더 확실한 해결책은 Long Short-Term Memory(LSTM)또는 Gated Recurrent Unit(GRU)구조를 사용하는 방법입니다. LSTM과 GRU모두 vanishing gradient 문제를 해결하기 위해 설계되었고, 킨 시퀀스를 처리할 수 있다는 것을 보여주었습니다. 
 
@@ -37,14 +37,14 @@ AutoEncoder Neural Network(AutoEncoder, 오토인코더)는 비지도학습 방�
 
 아래사진은 오토인코더의 가장 기본적인 구조입니다. 아래구조에서 오토인코더는 *h(x)(가설함수)*가 되는 함수를 학습하고자 합니다. 즉 출력값을 입력값 x와 유사하게 만들고자 하는 것 입니다. [아래 그림 출처](http://solarisailab.com/archives/113)  
 
-![AutoEncoder]({{ "/images/2019/Autoencoder_1.png" | prepend: site.baseurl }})
+![AutoEncoder]({{ "/images/sangmin/Autoencoder_1.png" | prepend: site.baseurl }})
 
 아래 사진과 같이 오토인코더 모델에 2를 넣게되면 인코더에 의해 압축됩니다. 압축된 표현은 디코더에 의해 다시 복원되어집니다. 
 
 오토인코더 모델은 히든레이어의 유닛 수가 모델 입력부분 유닛수에 비해 적습니다. 즉 인코딩 되면서 모델은 중요한 정보(특정 feature)만 살리게 됩니다. 
 
 압축된 표현을 디코더로부터 복원시킬 수도 있고, 다른 네트워크에 추출한 특징을 입력해 줄 수도 있습니다. [아래 그림 출처](https://blog.keras.io/building-autoencoders-in-keras.html)      
-![AutoEncoder]({{ "/images/2019/Autoencoder_2.png" | prepend: site.baseurl }})
+![AutoEncoder]({{ "/images/sangmin/Autoencoder_2.png" | prepend: site.baseurl }})
 
 # 오토인코더를 사용하는 이유
 
@@ -54,14 +54,14 @@ AutoEncoder Neural Network(AutoEncoder, 오토인코더)는 비지도학습 방�
 
 정상데이터를 모델에 입력해주고, 똑같이 출력에 나오도록 학습시키면, 모델은 입력된 정상 데이터와 똑같은 데이터를 출력할 것 입니다.  [아래 그림 출처](https://blog.keras.io/building-autoencoders-in-keras.html)    
     
-![AutoEncoder]({{ "/images/2019/Autoencoder_train_normal.png" | prepend: site.baseurl }})
+![AutoEncoder]({{ "/images/sangmin/Autoencoder_train_normal.png" | prepend: site.baseurl }})
 
 정상 데이터로만 학습시킨 오토인코더 모델은 정상데이터가 입력되면 똑같이 출력할 것입니다. 만약, 기존에 학습했던 정상 데이터가 아닌 비정상 데이터(정상 데이터와는 다른)가 모델에 입력되게 된다면 모델의 출력(복원)은 입력 값이랑은 차이가 많이 날 것입니다. 기존에 학습하지 않은 데이터이기 때문이죠. 
 
 이상감지에는 복원 에러(Reconstruct ion Error)를 사용합니다.  __(모델 입력 - 모델 출력) = Error__ 를 사용하여 임계치(Threshold)를 정하고, 에러가 임계치를 넘게 되면 이상이라고 정의하는 것 입니다. 
 [아래 그림 출처](https://blog.keras.io/building-autoencoders-in-keras.html)    
     
-![AutoEncoder]({{ "/images/2019/Autoencoder_train_anomaly.png" | prepend: site.baseurl }})
+![AutoEncoder]({{ "/images/sangmin/Autoencoder_train_anomaly.png" | prepend: site.baseurl }})
 
 __정상데이터만 굉장히 많은 경우에 오토인코더는 효율적으로 학습시켜 적용시킬 수 있습니다.__ 비정상 데이터가 거의 없거나, 존재하지 않는 상황에서도 적용시킬 수 있으며, 정상과 비정상만 명확하게 구분해놓으면 데이터를 라벨링할 필요가 없어지게 됩니다.
 
@@ -71,19 +71,19 @@ __정상데이터만 굉장히 많은 경우에 오토인코더는 효율적으�
 
 아래 사진은 제가 구성한 LSTM-AE의 구조입니다. Dense 레이어와 LSTM 레이어를 함께 사용하였고, 인코더와 디코더에 레이어를 추가하였습니다.
 
-![AutoEncoder]({{ "/images/2019/LSTM-AE.png" | prepend: site.baseurl }})
+![AutoEncoder]({{ "/images/sangmin/LSTM-AE.png" | prepend: site.baseurl }})
 
 # LSTM-AE를 이용한 데이터 복원
 
 임의로 sin, tan함수를 이용해 데이터를 만들어 보았습니다. sin함수는 정상데이터이고, tan함수는 비정상 데이터라고 가정하고 진행하였습니다. 여러개의 sin함수를 이어 붙여서 정상데이터를 만들고, 오토인코더 모델에 학습시켰습니다.  
 
-![AutoEncoder]({{ "/images/2019/LSTM-AE_normal_test.gif" | prepend: site.baseurl }})
+![AutoEncoder]({{ "/images/sangmin/LSTM-AE_normal_test.gif" | prepend: site.baseurl }})
 
 위 gif 상단에 있는 plot에서 빨간색 선은 모델 입력 값이고, 파란색 선은 모델 출력(복원) 값 입니다. 
 
 하단에 있는 plot의 검은색 선은 복원 에러 입니다. 정상인 데이터를 모델에 입력해 주었을 때는 에러가 굉장히 작게 나오는 걸 볼 수 있습니다.  
 
-![AutoEncoder]({{ "/images/2019/LSTM-AE_anomaly_test.gif" | prepend: site.baseurl }})
+![AutoEncoder]({{ "/images/sangmin/LSTM-AE_anomaly_test.gif" | prepend: site.baseurl }})
 
 비정상 데이터(학습되지 않은 새로운 데이터)가 모델에 입력되면 위 gif와 같이 복원 에러가 굉장히 높게 나옵니다. 복원 에러가 높게 나와 임계치를 넘어선다면 비정상구간이라고 정의할 수 있습니다.
 

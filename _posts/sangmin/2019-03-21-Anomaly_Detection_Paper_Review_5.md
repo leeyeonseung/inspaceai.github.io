@@ -29,7 +29,7 @@ tags: [Anomaly Detection, SVM]
 
 * 실제로 적용해보니, DNN 네트워크가 Precision과 F-score가 더 높았고, SVM이 Recall이 더 높았다고 말말합니다.
 
-    ![Paper_5]({{ "/images/2019/paper_5.png" | prepend: site.baseurl }})
+    ![Paper_5]({{ "/images/sangmin/paper_5.png" | prepend: site.baseurl }})
 
 * 하지만 DNN네트워크는 학습에 2주가 걸렸고, SVM은 30분이 걸렸다고 설명합니다.
 

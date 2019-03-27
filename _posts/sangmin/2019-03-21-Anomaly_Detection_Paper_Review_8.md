@@ -31,7 +31,7 @@ tags: [Anomaly Detection, LSTM-Encoder-Decoder]
 
 * 논문에서는 전력수요, 우주 왕복선, ECG, 그리고 2개의 real-world 엔진 데이터 셋을 이용해 실험을 진행하였다고 합니다.
 
-    ![Paper_8]({{ "/images/2019/paper_8.PNG" | prepend: site.baseurl }})
+    ![Paper_8]({{ "/images/sangmin/paper_8.PNG" | prepend: site.baseurl }})
 
     * 위 사진에서 첫 번째 열은 정상데이터, 두 번째 열은 비정상 데이터입니다.
     * 1행(파란색 plot)은 실제 원본 데이터입니다.

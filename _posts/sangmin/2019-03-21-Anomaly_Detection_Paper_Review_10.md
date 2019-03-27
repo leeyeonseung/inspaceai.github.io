@@ -74,44 +74,44 @@ tags: [Anomaly Detection, Dynamic Threshold]
 ## LSTM 모델 구조
 
 LSTM 모델 구조를 보여주는 사진입니다. 모델은 normal(정상)데이터로 학습을 진행합니다.
-![Paper_10]({{ "/images/2019/paper_10_1.png" | prepend: site.baseurl }})
+![Paper_10]({{ "/images/sangmin/paper_10_1.png" | prepend: site.baseurl }})
 
 ## 모델 입력/출력/Error Setting
 
 모델의 입력, 출력(예측), error setting의 시퀀스를 보여주는 사진입니다. error를 이용해 threshold를 설정하고, 이상감지를 진행합니다.
 
-![Paper_10]({{ "/images/2019/paper_10_2.png" | prepend: site.baseurl }})
+![Paper_10]({{ "/images/sangmin/paper_10_2.png" | prepend: site.baseurl }})
 
 ## Dynamic Error Threshold 기법
 
 Non-Parametrict Thresholding 수식입니다. Error 값에 따라 threshold가 유동적으로 바뀌게 됩니다. Unsupervised thresholding 기법이라고 설명하고 있습니다.
 
-![Paper_10]({{ "/images/2019/paper_10_3.png" | prepend: site.baseurl }})
+![Paper_10]({{ "/images/sangmin/paper_10_3.png" | prepend: site.baseurl }})
 
 ## 모델 성능 평가 지표
 
 다양한 Threshold 기법을 적용한 모델 성능평가 지표입니다. Non-Parametric 기법과 Pruning(가지치기)기법을 사용하였을 때 가장 좋은 성능이 나왔습니다.
 
-![Paper_10]({{ "/images/2019/paper_10_4.png" | prepend: site.baseurl }})
+![Paper_10]({{ "/images/sangmin/paper_10_4.png" | prepend: site.baseurl }})
 
 ## 데이터 셋 구축
 
 실제 저자가 사용한 데이터 셋 입니다. Github에 올려져 있습니다. 학습 셋과 테스트 셋이 나뉘어져 있습니다. 학습셋은 정상 데이터, 테스트 셋은 정상 + 비정상데이터(라벨링 된)로 구성되어 있습니다.
 
-![Paper_10]({{ "/images/2019/paper_10_5.png" | prepend: site.baseurl }})
+![Paper_10]({{ "/images/sangmin/paper_10_5.png" | prepend: site.baseurl }})
 
 ## 테스트 데이터 셋 라벨링
 
 테스트 셋은 라벨링 되어 있습니다(labeled_anomalies.csv 참고). 이상구간 인덱스와, 이상의 종류, 데이터 셋 이름 등의 대한 정보가 csv파일형태로 구성되어 있습니다.
 
-![Paper_10]({{ "/images/2019/paper_10_6.png" | prepend: site.baseurl }})
+![Paper_10]({{ "/images/sangmin/paper_10_6.png" | prepend: site.baseurl }})
 
 'labeled_anomalies.csv' 파일 상세설명 입니다. 이상의 종류(point, contextual)까지 라벨링 하였습니다. 
 
-![Paper_10]({{ "/images/2019/paper_10_8.png" | prepend: site.baseurl }})
+![Paper_10]({{ "/images/sangmin/paper_10_8.png" | prepend: site.baseurl }})
 
 ## 모델 결과 화면
 
 아래는 테스트 데이터 셋을 이용한 모델 성능평가 담긴 사진입니다.
 
-![Paper_10]({{ "/images/2019/paper_10_7.png" | prepend: site.baseurl }})
+![Paper_10]({{ "/images/sangmin/paper_10_7.png" | prepend: site.baseurl }})

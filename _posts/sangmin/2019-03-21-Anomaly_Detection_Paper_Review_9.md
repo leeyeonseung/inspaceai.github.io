@@ -38,4 +38,4 @@ tags: [Anomaly Detection, LSTM]
 
 * 통계적인 베이스가 있는 이상감지 규칙과, 사용자가 반복적으로 false positive를 수동으로 제거할 수 있도록 쉽게 수정할 수 있는 규칙은 이상징후를 탐지할 수 있는 매우 강력한 방법이라고 말하고 있습니다.
 
-    ![Paper_9]({{ "/images/2019/paper_9.png" | prepend: site.baseurl }})
+    ![Paper_9]({{ "/images/sangmin/paper_9.png" | prepend: site.baseurl }})

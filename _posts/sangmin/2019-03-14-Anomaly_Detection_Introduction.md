@@ -24,7 +24,7 @@ tags: [Anomaly Detection]
 
 * 말 그대로 '이상'을 감지하는 것입니다. 어떤 데이터들 중에서 '이상한 것'들을  찾는 것 입니다. 시계열 데이터에서 과거 또는 현재의 시점에서 보편적인 패턴에서 벗어나거나, 벗어나려는 징후가 있는 드문 패턴 또는 이상 패턴을 찾아내는 것 입니다. [출처](https://medium.com/the-data-dynasty/anomaly-detection-in-google-analytics-a-new-kind-of-alerting-9c31c13e5237)
 
-   ![Anomaly Detection]({{ "/images/2019/anomaly_1.png" | prepend: site.baseurl }})
+   ![Anomaly Detection]({{ "/images/sangmin/anomaly_1.png" | prepend: site.baseurl }})
 
 ## 중요성
 
