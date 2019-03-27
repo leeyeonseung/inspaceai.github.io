@@ -72,6 +72,6 @@ C:\Projects\anaconda\_keras\keras-frcnn> python test_frcnn.py --path images
 
 result_imgs 폴더에 결과 파일이 출력되는 것을 볼 수 있습니다.
 
-![result of frcnn prediction #1]({{ "/images/2017/result1.png" | prepend: site.baseurl }})
-![result of frcnn prediction #2]({{ "/images/2017/result2.png" | prepend: site.baseurl }})
-![result of frcnn prediction #3]({{ "/images/2017/result3.png" | prepend: site.baseurl }})
+![result of frcnn prediction #1]({{ "/images/hansoli/result1.png" | prepend: site.baseurl }})
+![result of frcnn prediction #2]({{ "/images/hansoli/result2.png" | prepend: site.baseurl }})
+![result of frcnn prediction #3]({{ "/images/hansoli/result3.png" | prepend: site.baseurl }})

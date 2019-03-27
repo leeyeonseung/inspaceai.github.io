@@ -28,6 +28,6 @@ $$
 
 이 초점 손실 함수의 성능을 증명하기 위해 논문에서는 RetinaNet이라는 새로운 객체 검출 모델을 디자인하여 그 성능을 보였습니다. FPN을 기반으로 하여 앵커 박스를 사용하는 간단한 1차 네트워크입니다. 백엔드 망은 ResNet-50과 ResNet-101을 사용하였습니다.
 
-![RetinaNet AP Comparison]({{ "/images/2019/retinanet.png" | prepend: site.baseurl }})
+![RetinaNet AP Comparison]({{ "/images/hansoli/retinanet.png" | prepend: site.baseurl }})
 
 [COCO 데이터셋](http://cocodataset.org)에서 평균 정확도(AP)와 예측 시간을 비교한 결과입니다. 기존에 성능이 가장 우수하다고 알려졌던 [FPN FRCN](https://arxiv.org/abs/1612.03144)도 그래프에 포함되어 있는데 같은 소요시간 기준으로 RetinaNet의 정확도가 가장 우수함을 알 수 있습니다.

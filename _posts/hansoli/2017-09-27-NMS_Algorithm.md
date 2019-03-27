@@ -15,7 +15,7 @@ tags: [Object Detection]
 
 비최대값 억제 알고리즘은 국지적인 최대값을 찾아 그 값만 남기고 나머지 값은 모두 삭제하는 알고리즘입니다. 가장 단순한 사용례로는 OpenCV에서도 지원하는 외곽선 검출 알고리즘인 캐니 엣지(Canny Edge) 알고리즘이 있습니다.
 
-![nms algorithm in canny edge algorithm]({{ "/images/2017/cannyedge.png" | prepend: site.baseurl }})
+![nms algorithm in canny edge algorithm]({{ "/images/hansoli/cannyedge.png" | prepend: site.baseurl }})
 
 캐니 엣지 알고리즘에서는 가우시안 필터와 소벨 마스크를 거쳐서 나온 색상 변화량 데이터에서 윤곽을 찾아내기 위해 비최대값 억제 알고리즘을 사용합니다. 특정 픽셀의 주변 값이 그 픽셀의 값과 큰지 작은지 검사하고, 현재 픽셀보다 큰 주변 값이 있으면 해당 값을 삭제합니다. 이 과정을 거쳐 색상 변화량의 국소 극값을 구할 수 있으며 색상 변화량이 최대가 되는 부분에 외곽선이 존재할 가능성이 높다고 판단할 수 있습니다.
 

@@ -27,7 +27,7 @@ tags: [Object Detection]
 
 이 과정에서 사용되는 가중치를 구하기 위해서, 모든 픽셀을 x, y, r, g, b 5개 축을 갖는 5차원 유클리드 공간으로 투영합니다. 여기서 x, y는 해당 픽셀의 위치이고, r, g, b는 해당 픽셀의 색상 값입니다. 각 픽셀 간의 유클리드 거리를 선분의 가중치로 두고 그래프 병합을 실시합니다.
 
-![Felzenszwalb image segmentation]({{ "/images/2017/Felzenszwalb.png" | prepend: site.baseurl }})
+![Felzenszwalb image segmentation]({{ "/images/hansoli/Felzenszwalb.png" | prepend: site.baseurl }})
 
 이 영상 분할 방식은 완벽한 것은 아니지만, 연산 속도가 매우 빠르고 그에 비해서 결과가 좋은 편이기에 단순히 영역 제안의 보조역할로 사용되는 경우에는 적합하다고 판단되어 이 알고리즘을 선택한 것으로 보입니다.
 
@@ -44,6 +44,6 @@ tags: [Object Detection]
 
 3번 항목의 크기 유사도는 영역의 크기가 작을수록 우선적으로 병합되도록 유도하는 역할을 합니다. 또한 4번 항목의 채움 유사도는 병합 결과가 직사각형에 가까울수록 우선적으로 병합되도록 유도하는 역할을 합니다.
 
-![union segmentation by level]({{ "/images/2017/union_segmentation.png" | prepend: site.baseurl }})
+![union segmentation by level]({{ "/images/hansoli/union_segmentation.png" | prepend: site.baseurl }})
 
 이 과정을 통해 여러 규모(scale)로 합병된 후보를 골라낼 수 있습니다.

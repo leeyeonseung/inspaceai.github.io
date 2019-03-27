@@ -7,6 +7,10 @@ categories: [Tutorials, Object Detection]
 tags: [Object Detection]
 ---
 
+이 포스트는 현재 작성중. (작성 끝나면 제목 바꿀 예정이니 수정하지 말 것) by 정한솔
+
+---
+
 본 포스트에서는 [처음부터 끝까지: 딥 러닝을 사용한 객체 검출을 위한 가이드: Faster R-CNN, YOLO, SSD](https://cv-tricks.com/object-detection/faster-r-cnn-yolo-ssd/)를 한국어로 번역하여 소개하겠습니다. 딥 러닝 기반 객체 검출의 기초 개념 학습에 도움이 될 것으로 생각됩니다.
 
 This article is a translation of [Zero to Hero: Guide to Object Detection using Deep Learning: Faster R-CNN, YOLO, SSD](https://cv-tricks.com/object-detection/faster-r-cnn-yolo-ssd/).

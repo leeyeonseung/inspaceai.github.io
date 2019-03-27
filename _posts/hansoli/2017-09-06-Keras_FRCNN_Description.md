@@ -67,7 +67,7 @@ simple_parser.py는 좀 더 단순한 태깅 방법을 제공합니다. 한 줄�
 
 Faster R-CNN은 Fast R-CNN 대비, 영역 제안을 딥러닝 모델을 통한 방법으로 변경하여 성능 향상을 달성하였습니다. 기반 CNN 모델은 기본값으로는 ResNet50을 사용하며 (원본 논문에서도 ResNet50을 사용하였습니다) VGG16을 대신 사용할 수 있는 기능도 제공합니다.
 
-![frcnn]({{ "/images/2017/frcnn.png" | prepend: site.baseurl }})
+![frcnn]({{ "/images/hansoli/frcnn.png" | prepend: site.baseurl }})
 
 모델의 구성은 위와 같습니다. 입력값은 물체를 검출할 대상 이미지이며, 출력값은 물체가 존재할 확률 지도, 물체 분류 2가지와 그 회귀(regression) 값 4가지로 구성됩니다. 이 모델을 한번에 가동하는 것이 아니라 모델을 여러 단계로 분할하여 단계적으로 훈련 및 예측이 실행되게 됩니다.
 
