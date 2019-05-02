@@ -11,7 +11,10 @@ tags: [Reinforcement Learning, Unity ML-Agents, Drone]
   
 저장소 링크 : [https://github.com/InSpaceAI/RL-InDrone](https://github.com/InSpaceAI/RL-InDrone)
 
+<img src="{{"/images/lhh/do/19.gif" | prepend: site.baseurl }}" style="max-width:100%" alt="Finish">
+
 ---
+지금부터 기존 환경을 이용하여 위 환경을 제작해보겠습니다.
 
 먼저 저장소 링크에 있는 UnitySDK를 유니티로 열고 Project창에 있는 DroneFlight 환경을 클릭하고 Ctrl+D를 눌러 복제합니다.
 
@@ -114,3 +117,13 @@ obstacle.transform.position = droneInitPos +
 그러면 내장 ppo를 통해 학습을 진행합니다. 내장 ppo 학습 관련 자세한 사항에 대해서는 [튜토리얼](https://github.com/hyunho1027/Unity_ML_Agents_Tutorial)을 참고하세요
 
 <img src="{{"/images/lhh/do/17.png" | prepend: site.baseurl }}" style="max-width:100%" alt="Learning">
+
+학습이 완료되었다면 모델이 저장된 경로에 들어가 DroneObstacle의 TFModels 폴더에 복사해줍니다.
+
+<img src="{{"/images/lhh/do/18.png" | prepend: site.baseurl }}" style="max-width:100%" alt="Model">
+
+그리고 새로 복사한 모델을 적용하고 플레이하여 잘 작동되는지 확인합니다.
+
+<img src="{{"/images/lhh/do/19.gif" | prepend: site.baseurl }}" style="max-width:100%" alt="Finish">
+
+이상 여기까지 기존 환경을 이용해서 새로운 환경을 제작하는 포스트를 마치겠습니다.
